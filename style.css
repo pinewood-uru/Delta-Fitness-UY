@@ -1,0 +1,28 @@
+.logo {
+  width: 50px;
+  height: auto;
+}
+
+.ctn-section {
+  min-height: 35vh;
+  max-height: 65vh !important;
+}
+
+.heightctn {
+  height: 70vh;
+}
+
+.heightctn2 {
+  height: 50vh;
+}
+
+.bnd-img {
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.text-vertical{
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}

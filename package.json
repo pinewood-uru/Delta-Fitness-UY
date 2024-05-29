@@ -1,0 +1,26 @@
+{
+  "name": "obligatorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass scss/estilos.scss CSS/estilos.min.css",
+    "watch": "sass --watch scss/estilos.scss CSS/estilos.min.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinewood-uru/OBLIGATORIO-martes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinewood-uru/OBLIGATORIO-martes/issues"
+  },
+  "homepage": "https://github.com/pinewood-uru/OBLIGATORIO-martes#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  }
+}
