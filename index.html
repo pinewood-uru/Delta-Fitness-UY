@@ -257,13 +257,13 @@
         <h4 class="text-primary">💙 Contactanos 💙</h4>
 
         <form class="needs-validation" id="contactform" novalidate=""  method="POST" data-netlify="true">
-          <input type="hidden" name="Contacto Delta" 
+          <input type="hidden" name="Contacto-Delta" 
           value="💙Delta💙">
           <div class="row g-3">
 
             <div class="col-sm-6">
               <label for="nombre" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="nombre" placeholder="Nombre" value="" required="">
+              <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre" required="">
               <div class="invalid-feedback">
                 Ingresar nombre valido
               </div>
@@ -271,7 +271,7 @@
 
             <div class="col-sm-6">
               <label for="apellido" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="apellido" placeholder="Apellido" value="" required="">
+              <input type="text" class="form-control" id="apellido" placeholder="Apellido" name="apellido" required="">
               <div class="invalid-feedback">
                 Ingresar apellido valido
               </div>
@@ -279,7 +279,7 @@
 
             <div class="col-12">
               <label for="email" class="form-label">Mail</label>
-              <input type="email" class="form-control" id="email" placeholder="juanlopez@example.com" required="">
+              <input type="email" class="form-control" id="email" placeholder="juanlopez@example.com" required="" name="email">
               <div class="invalid-feedback">
                 Seguro este es tu mail? Por favor chequear
               </div>

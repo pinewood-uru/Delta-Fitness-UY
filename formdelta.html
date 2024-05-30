@@ -56,14 +56,14 @@
       formulario y nos pondremos en contacto contigo.</p>
 
     <section class="col-md-7 col-lg-8 m-2 h-75">
-      <form class="needs-validation" novalidate="" method="POST" data-netlify="true">
-        <input type="hidden" name="Contacto Clase Delta" 
+      <form class="needs-validation" id="clasedelta" novalidate="" method="POST" data-netlify="true">
+        <input type="hidden" name="Contacto Clase Delta" onSubmit="submit"
         value="💙Delta💙">
         <article class="row g-3">
           <!-- NOMBRE -->
           <div class="col-sm-6">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Nombre" value="" required="">
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre" value="" required="" name="nombre">
             <div class="invalid-feedback">
               Ingresar nombre valido
             </div>
@@ -71,7 +71,7 @@
           <!-- Apellido -->
           <div class="col-sm-6">
             <label for="apellido" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="apellido" placeholder="Apellido" value="" required="">
+            <input type="text" class="form-control" id="apellido" placeholder="Apellido" value="" required="" name="apellido">
             <div class="invalid-feedback">
               Ingresar apellido valido
             </div>
@@ -79,7 +79,7 @@
           <!-- MAIL -->
           <div class="col-12">
             <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="juanlopez@example.com" required="">
+            <input type="email" class="form-control" id="email" placeholder="juanlopez@example.com" required="" name="email">
             <div class="invalid-feedback">
               Seguro este es tu mail? Por favor chequear
             </div>
@@ -92,10 +92,10 @@
           <label for="Clase" class="form-label">Clase</label>
           <select class="form-select" id="Clase" required="">
             <option value="">Elegir</option>
-            <option>Cross</option>
-            <option>Funcional</option>
-            <option>Open Box</option>
-            <option>Yoga</option>
+            <option value="Cross">Cross</option>
+            <option value="Funcional">Funcional</option>
+            <option value="Open">Open Box</option>
+            <option value="Yoga">Yoga</option>
           </select>
           <div class="invalid-feedback">
             Elegir una clase
@@ -106,9 +106,9 @@
           <label for="Modalidad" class="form-label">Modalidad</label>
           <select class="form-select" id="Modalidad" required="">
             <option value="">Elegir</option>
-            <option>3 veces por semana</option>
-            <option>4 veces por semana</option>
-            <option>Pase libre</option>
+            <option value="3">3 veces por semana</option>
+            <option value="4">4 veces por semana</option>
+            <option value="paselibre">Pase libre</option>
 
           </select>
           <div class="invalid-feedback">
@@ -117,7 +117,7 @@
         </div>
         
         <!-- BUTTON -->
-        <button type="submit" class="w-100 btn btn-primary btn-lg my-4">Continuar</button>
+        <button type="submit" class="w-100 btn btn-primary btn-lg my-4" href="index.html">Continuar</button>
       </form>
     </section>
   </main>
