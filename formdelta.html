@@ -50,15 +50,15 @@
   <!-- MAIN -->
 
   <main id="ctnspinner" class="m-0 d-flex flex-column align-items-center">
-
     <!-- FORM -->
-
     <h2 class="display-5 fw-bold text-center text-info">Comencemos</h2>
     <p class="lead text-center text-info">Diste el primer paso y el más importante! <br> Completa el siguiente
       formulario y nos pondremos en contacto contigo.</p>
 
     <section class="col-md-7 col-lg-8 m-2 h-75">
-      <form class="needs-validation" novalidate="">
+      <form class="needs-validation" novalidate="" method="POST" data-netlify="true">
+        <input type="hidden" name="subject" 
+        value="💙Delta💙">
         <article class="row g-3">
           <!-- NOMBRE -->
           <div class="col-sm-6">
@@ -78,8 +78,8 @@
           </div>
           <!-- MAIL -->
           <div class="col-12">
-            <label for="Mail" class="form-label">Mail</label>
-            <input type="Mail" class="form-control" id="Mail" placeholder="juanlopez@example.com" required="">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="juanlopez@example.com" required="">
             <div class="invalid-feedback">
               Seguro este es tu mail? Por favor chequear
             </div>
@@ -115,16 +115,11 @@
             Elegir una modalidad
           </div>
         </div>
-        </div>
+        
         <!-- BUTTON -->
-        <button type="submit" class="w-100 btn btn-primary btn-lg my-4" type="submit">
-          Continuar</button>
+        <button type="submit" class="w-100 btn btn-primary btn-lg my-4">Continuar</button>
       </form>
     </section>
-
-    </section>
-
-
   </main>
 
   <!-- FOOTER -->
