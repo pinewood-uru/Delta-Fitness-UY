@@ -14,5 +14,16 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
   }
+
+  .heightminctn{
+    min-height: 40vh;
+  }
+
+  .ctnimg2{
+    width: 700px;
+    height: auto;
+    max-height: 350px;
+    object-fit: cover;
+  }
   
   
