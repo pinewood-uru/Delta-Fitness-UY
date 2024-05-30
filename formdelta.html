@@ -59,7 +59,8 @@
 
     <section class="col-md-7 col-lg-8 m-2 h-75">
       <form class="needs-validation" novalidate="">
-        <div class="row g-3">
+        <article class="row g-3">
+          <!-- NOMBRE -->
           <div class="col-sm-6">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nombre" placeholder="Nombre" value="" required="">
@@ -67,7 +68,7 @@
               Ingresar nombre valido
             </div>
           </div>
-
+          <!-- Apellido -->
           <div class="col-sm-6">
             <label for="apellido" class="form-label">Last name</label>
             <input type="text" class="form-control" id="apellido" placeholder="Apellido" value="" required="">
@@ -75,7 +76,7 @@
               Ingresar apellido valido
             </div>
           </div>
-
+          <!-- MAIL -->
           <div class="col-12">
             <label for="Mail" class="form-label">Mail</label>
             <input type="Mail" class="form-control" id="Mail" placeholder="juanlopez@example.com" required="">
@@ -84,9 +85,9 @@
             </div>
           </div>
 
-        </div>
+        </article>
 
-
+        <!-- CLASE -->
         <div class="col-md-5">
           <label for="Clase" class="form-label">Clase</label>
           <select class="form-select" id="Clase" required="">
@@ -100,13 +101,13 @@
             Elegir una clase
           </div>
         </div>
-
+        <!-- MODALIDAD -->
         <div class="col-md-4">
           <label for="Modalidad" class="form-label">Modalidad</label>
           <select class="form-select" id="Modalidad" required="">
             <option value="">Elegir</option>
             <option>3 veces por semana</option>
-            <option>3 veces por semana</option>
+            <option>4 veces por semana</option>
             <option>Pase libre</option>
 
           </select>
@@ -115,32 +116,12 @@
           </div>
         </div>
         </div>
-        <button type="submit" class="w-100 btn btn-primary btn-lg my-4" type="submit" data-bs-toggle="modal"
-          data-bs-target="#modal">
+        <!-- BUTTON -->
+        <button type="submit" class="w-100 btn btn-primary btn-lg my-4" type="submit">
           Continuar</button>
       </form>
     </section>
 
-    <!-- MODAL -->
-    <!-- Modal -->
-    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="modal">Gracias por confiar</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            El staff de Delta, se estara comunicando contigo a la brevedad.
-          </div>
-          <div class="modal-footer">
-            <a type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</a>
-            <a href="index.html" type="button" class="btn btn-primary">Ir a Inicio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </form>
     </section>
 
 
